@@ -1,0 +1,35 @@
+# Loading the library
+library(dplyr)
+
+#installing package and loading the library
+install.packages("heplots")
+library(heplots)
+
+# Loading dataset and visualization of descriptive statistics of dependent and independent variables
+flixit_data <- read.table("FlixIt.dat", header=FALSE)
+names(flixit_data) <- c("ID", "Hours", "Children", "Income", "History")
+summary(flixit_data)
+
+# Simple regression between Streaming Hours and number of Children and Calculation of Adjusted R^2
+hours_to_children <- lm(Hours~Children, data=flixit_data)
+summary(hours_to_children)
+etasq(hours_to_children, anova = TRUE, partial = FALSE)
+
+# Simple regression between Streaming Hours and Income and Calculation of Adjusted R^2
+hours_to_income <- lm(Hours~Income, data=flixit_data)
+summary(hours_to_income)
+etasq(hours_to_income, anova = TRUE, partial = FALSE)
+
+# Simple regression between Streaming Hours and History and Calculation of Adjusted R^2
+hours_to_history <- lm(Hours~History, data=flixit_data)
+summary(hours_to_history)
+etasq(hours_to_history, anova = TRUE, partial = FALSE)
+
+# Mutiple regression between Streaming Hours and Income, Children and History
+hours_to_history <- lm(Hours~Children + Income + History , data=flixit_data)
+summary(hours_to_history)
+etasq(hours_to_history, anova = TRUE, partial = FALSE)
+
+# Number of Sample
+num_rows <- nrow(flixit_data)
+print(num_rows)
