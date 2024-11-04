@@ -1,0 +1,57 @@
+---
+title: "Simple & Multiple Regression"
+author: "N_M_Emran_Hussain"
+date: "2024-11-04"
+output: html_document
+---
+# Installing and Loading 'deplyr' and 'heplots' packages 
+```{r}
+# Loading the library
+library(dplyr)
+
+# Installing package and loading the library
+install.packages("heplots")
+library(heplots)
+```
+
+# Loading dataset and visualization of descriptive statistics of dependent and independent variables
+
+```{r}
+flixit_data <- read.table("FlixIt.dat", header=FALSE)
+names(flixit_data) <- c("ID", "Hours", "Children", "Income", "History")
+summary(flixit_data)
+```
+# Simple regression between Streaming Hours and number of Children and Calculation of Adjusted R^2
+
+```{r}
+hours_to_children <- lm(Hours~Children, data=flixit_data)
+summary(hours_to_children)
+etasq(hours_to_children, anova = TRUE, partial = FALSE)
+```
+# Simple regression between Streaming Hours and Income and Calculation of Adjusted R^2
+
+```{r}
+hours_to_income <- lm(Hours~Income, data=flixit_data)
+summary(hours_to_income)
+etasq(hours_to_income, anova = TRUE, partial = FALSE)
+```
+
+# Simple regression between Streaming Hours and History and Calculation of Adjusted R^2
+```{r}
+hours_to_history <- lm(Hours~History, data=flixit_data)
+summary(hours_to_history)
+etasq(hours_to_history, anova = TRUE, partial = FALSE)
+```
+# Mutiple regression between Streaming Hours and Income, Children and History
+
+```{r}
+hours <- lm(Hours~Children + Income + History , data=flixit_data)
+summary(hours)
+etasq(hours, anova = TRUE, partial = FALSE)
+```
+
+# Number of Sample
+```{r}
+num_rows <- nrow(flixit_data)
+print(num_rows)
+```
