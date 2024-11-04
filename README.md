@@ -1,1 +1,1 @@
-# Stat_6312_simple_multi_regression_in_R
+Simple & Multiple Regression Using R
