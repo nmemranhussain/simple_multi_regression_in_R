@@ -15,7 +15,7 @@ The analysis aims to predict streaming hours based on each variable independentl
 1. Predict streaming hours based on **Income** only
 2. Predict streaming hours based on **Number of Children** only
 3. Predict streaming hours based on **Subscription History** only
-4. Combined model to redict streaming hours using **Income**, **Number of Children** and **Subscription History** altogether
+4. Combined model to predict streaming hours using **Income**, **Number of Children** and **Subscription History** altogether
 
 ## Methodology
 - Simple Linear Regression models are developed for each individual predictor.
