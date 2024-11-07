@@ -1,0 +1,119 @@
+       ID              Hours           Children         Income         History     
+ Min.   : 104123   Min.   : 11.00   Min.   :0.000   Min.   : 20.0   Min.   :1.000  
+ 1st Qu.:2470562   1st Qu.: 50.00   1st Qu.:1.000   1st Qu.: 86.0   1st Qu.:4.000  
+ Median :5353738   Median : 61.00   Median :1.000   Median :113.0   Median :4.000  
+ Mean   :5159247   Mean   : 61.96   Mean   :1.342   Mean   :109.4   Mean   :4.329  
+ 3rd Qu.:7621615   3rd Qu.: 77.00   3rd Qu.:2.000   3rd Qu.:133.0   3rd Qu.:5.000  
+ Max.   :9935214   Max.   :114.00   Max.   :3.000   Max.   :200.0   Max.   :8.000  
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   Call:
+lm(formula = Hours ~ Children, data = flixit_data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-45.909 -13.909   1.091  14.086  44.091 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)   53.905      2.359   22.85  < 2e-16 ***
+Children       6.005      1.472    4.08 6.27e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 19.34 on 223 degrees of freedom
+Multiple R-squared:  0.06947,	Adjusted R-squared:  0.06529 
+F-statistic: 16.65 on 1 and 223 DF,  p-value: 6.27e-05
+
+Anova Table (Type II tests)
+
+Response: Hours
+             eta^2 Sum Sq  Df F value   Pr(>F)    
+Children  0.069466   6225   1  16.647 6.27e-05 ***
+Residuals           83394 223                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Call:
+lm(formula = Hours ~ Income, data = flixit_data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-46.481 -12.929  -0.343  13.854  47.516 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  82.2130     4.5070  18.241  < 2e-16 ***
+Income       -0.1850     0.0395  -4.684 4.89e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 19.13 on 223 degrees of freedom
+Multiple R-squared:  0.08957,	Adjusted R-squared:  0.08549 
+F-statistic: 21.94 on 1 and 223 DF,  p-value: 4.889e-06
+
+Anova Table (Type II tests)
+
+Response: Hours
+             eta^2 Sum Sq  Df F value    Pr(>F)    
+Income    0.089574   8028   1   21.94 4.889e-06 ***
+Residuals           81592 223                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Call:
+lm(formula = Hours ~ History, data = flixit_data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-37.803 -12.803  -0.103  12.197  46.598 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)   24.301      4.199   5.787 2.41e-08 ***
+History        8.700      0.934   9.316  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 17.01 on 223 degrees of freedom
+Multiple R-squared:  0.2801,	Adjusted R-squared:  0.2769 
+F-statistic: 86.78 on 1 and 223 DF,  p-value: < 2.2e-16
+
+Anova Table (Type II tests)
+
+Response: Hours
+            eta^2 Sum Sq  Df F value    Pr(>F)    
+History   0.28014  25106   1  86.784 < 2.2e-16 ***
+Residuals          64513 223                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Call:
+lm(formula = Hours ~ Children + Income + History, data = flixit_data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-34.555 -12.001  -0.498  13.049  39.604 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 29.47537    7.31004   4.032 7.61e-05 ***
+Children     3.80744    1.29605   2.938  0.00366 ** 
+Income      -0.05306    0.03768  -1.408  0.16049    
+History      7.66601    1.00131   7.656 5.92e-13 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 16.65 on 221 degrees of freedom
+Multiple R-squared:  0.3166,	Adjusted R-squared:  0.3073 
+F-statistic: 34.12 on 3 and 221 DF,  p-value: < 2.2e-16
+
+Anova Table (Type II tests)
+
+Response: Hours
+             eta^2 Sum Sq  Df F value    Pr(>F)    
+Children  0.026689   2392   1  8.6303  0.003657 ** 
+Income    0.006132    550   1  1.9829  0.160492    
+History   0.181260  16244   1 58.6136 5.917e-13 ***
+Residuals           61249 221                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+[1] 225
