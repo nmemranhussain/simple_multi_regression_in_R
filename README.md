@@ -23,6 +23,11 @@ The analysis aims to predict streaming hours based on each variable independentl
 - **Income**: Minimal influence, indicating limited segmentation value based on income.
 - **History**: Strong positive relationship, implying long-term subscribers are more engaged.
 
+## Interpretation
+- **Children**: Each additional child in a subscriber's household is associated with an increase in streaming hours, indicating that families with children tend to use the service more.
+- **Income**: Income has a slight negative relationship with streaming hours, suggesting it may not be a strong predictor of streaming behavior for this platform.
+- **History**: History is the strongest predictor of streaming hours. Longer-tenured subscribers tend to stream more, highlighting the importance of retaining long-term customers for increased engagement.
+
 ## Model Performance
 - **Simple Linear Regression** (SLR) was used to analyze each predictor’s individual impact.
 - **Multiple Regression** (MR) was used to evaluate the combined effect of all predictors.
