@@ -1,6 +1,4 @@
 # FlixIt Streaming Analysis
-
-## Overview
 This project analyzes the relationship between FlixIt streaming hours and three subscriber characteristics: **Number of Children**, **Income**, and **Subscription History**. Using linear regression analysis, the objective is to inform customer engagement strategies by identifying key predictors of streaming behavior.
 
 ## Data Description
