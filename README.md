@@ -17,6 +17,7 @@ The analysis aims to predict streaming hours based on each variable independentl
 1. Predict streaming hours based on **Income** only
 2. Predict streaming hours based on **Number of Children** only
 3. Predict streaming hours based on **Subscription History** only
+4. Predict streaming hours based on **Income**, **Number of Children** and **Subscription History**
 
 ## Key Findings
 - **Children**: Has a positive impact on streaming hours, suggesting family-friendly marketing initiatives could increase engagement.
