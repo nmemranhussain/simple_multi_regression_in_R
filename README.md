@@ -1,5 +1,5 @@
 # FlixIt Streaming Analysis
-This project analyzes the relationship between FlixIt streaming hours and three subscriber characteristics: **Number of Children**, **Income**, and **Subscription History**. Using linear regression analysis, the objective is to inform customer engagement strategies by identifying key predictors of streaming behavior.
+FlixIt Inc. aims to understand the factors influencing streaming behavior among its subscribers to improve customer retention and enhance engagement with premium services. This analysis predicts **streaming hours** based on three key predictors: annual **Income**, number of **Children** under 18 in the household, and subscription **History** (years as a FlixIt subscriber). The primary objective is to determine the individual and combined effects of these factors on streaming behavior, guiding strategic decisions for customer segmentation and retention.
 
 ## Data Description
 - **Dataset File**: `FlixIt.dat`
@@ -15,7 +15,12 @@ The analysis aims to predict streaming hours based on each variable independentl
 1. Predict streaming hours based on **Income** only
 2. Predict streaming hours based on **Number of Children** only
 3. Predict streaming hours based on **Subscription History** only
-4. Predict streaming hours using **Income**, **Number of Children** and **Subscription History** altogether
+4. Combined model to redict streaming hours using **Income**, **Number of Children** and **Subscription History** altogether
+
+## Methodology
+- Simple Linear Regression models are developed for each individual predictor.
+- Multiple Regression is used to evaluate the combined influence of all predictors.
+- All results are reported with a minimum precision of four decimal places, using an alpha level of .05 for statistical tests.
 
 ## Key Findings
 - **Children**: Has a positive impact on streaming hours, suggesting family-friendly marketing initiatives could increase engagement.
