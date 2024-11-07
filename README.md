@@ -45,7 +45,7 @@ We should prioritize strategies targeting customers with a strong ‘subcription
 - **R² Values** indicate the strength of each predictor’s relationship with streaming hours.
 
 ## Instructions
-1. **Dependencies**:
+- **Dependencies**:
    ```R
    install.packages("dplyr")
    install.packages("heplots")
