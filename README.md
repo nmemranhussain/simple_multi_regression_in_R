@@ -15,7 +15,7 @@ The analysis aims to predict streaming hours based on each variable independentl
 1. Predict streaming hours based on **Income** only
 2. Predict streaming hours based on **Number of Children** only
 3. Predict streaming hours based on **Subscription History** only
-4. Predict streaming hours based on **Income**, **Number of Children** and **Subscription History**
+4. Predict streaming hours using **Income**, **Number of Children** and **Subscription History** altogether
 
 ## Key Findings
 - **Children**: Has a positive impact on streaming hours, suggesting family-friendly marketing initiatives could increase engagement.
@@ -32,7 +32,7 @@ The analysis aims to predict streaming hours based on each variable independentl
 - **An interpretation of the Global F p-value**: Global F p-value 2.2e-16 which is less than 0.05. It means that we can reasonably conclude that at least one of the predictor variables (either ‘Children’ or ‘Income’ or ‘History’) is statistical-significantly related with ‘Hours’ in 95% confidence level. 
 
 ## Recommandation
-We should prioritize strategies targeting customers with a strong ‘subcription history’ with the company, as this variable has the most significant positive impact on the outcome. Additionally, customers with children also show a positive association, suggesting potential for family-oriented marketing efforts. Income, however, appears to have minimal influence on the outcome, especially in the multiple regression model, and can be deprioritized in customer segmentation efforts. While the model explains about 31.66% of the variance in the outcome, there remains a substantial portion unexplained, indicating that the CEO could benefit from exploring additional variables to enhance the model's explanatory power and better capture other influential factors. 
+We should prioritize strategies targeting customers with a strong ‘subcription history’ with the company, as this variable has the most significant positive impact on the outcome. Additionally, customers with children also show a positive association, suggesting potential for family-oriented marketing efforts. Income, however, appears to have minimal influence on the outcome, especially in the multiple regression model, and can be deprioritized in customer segmentation efforts. While the model explains about 31.66% of the variance in the outcome, there remains a substantial portion unexplained, indicating that we could benefit from exploring additional variables to enhance the model's explanatory power and better capture other influential factors. 
 
 ## Model Performance
 - **Simple Linear Regression** (SLR) was used to analyze each predictor’s individual impact.
