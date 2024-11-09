@@ -44,7 +44,7 @@ We should prioritize strategies targeting customers with a strong ‘subcription
 ## Model Performance
 - **Simple Linear Regression** (SLR) was used to analyze each predictor’s individual impact.
 - **Multiple Regression** (MR) was used to evaluate the combined effect of all predictors.
-- **R² Values**, **CPD value**, **P-value** indicate the statistical significance and the strength of each predictor’s relationship with streaming hours individually and collectively.
+- **P-value**, **CPD value** and **R² Values** indicate the statistical significance and the strength of each predictor’s relationship with **streaming hours** individually and collectively.
 
 ## Instructions
 **Dependencies**:
