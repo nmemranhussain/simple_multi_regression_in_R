@@ -20,6 +20,7 @@ The analysis aims to predict streaming hours based on each variable independentl
 ## Methodology
 - Simple Linear Regression models are developed for each individual predictor.
 - Multiple Regression is used to evaluate the combined influence of all predictors.
+- To assess the overall model fit, the individual contributions of predictors and to identify the most influential predictors to refine the model for optimal performance, both the coefficient of determination (R²) and the coefficient of partial determination (CPD) are calculated.
 - All results are reported with a minimum precision of four decimal places, using an alpha level of .05 for statistical tests.
 
 ## Key Findings
@@ -42,7 +43,7 @@ We should prioritize strategies targeting customers with a strong ‘subcription
 ## Model Performance
 - **Simple Linear Regression** (SLR) was used to analyze each predictor’s individual impact.
 - **Multiple Regression** (MR) was used to evaluate the combined effect of all predictors.
-- **R² Values** indicate the strength of each predictor’s relationship with streaming hours.
+- **R² Values** & **P-value** indicate the statistical significance and the strength of each predictor’s relationship with streaming hours.
 
 ## Instructions
 **Dependencies**:
