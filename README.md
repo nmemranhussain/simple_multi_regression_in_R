@@ -16,11 +16,12 @@ The analysis aims to predict streaming hours based on each variable independentl
 2. Predict streaming hours based on **Number of Children** only
 3. Predict streaming hours based on **Subscription History** only
 4. Combined model to predict streaming hours using **Income**, **Number of Children** and **Subscription History** altogether
+5. We want to assess the overall model fit, the individual contributions of predictors and to identify the most influential predictors to refine the model for optimal performance, 
 
 ## Methodology
 - Simple Linear Regression models are developed for each individual predictor.
 - Multiple Regression is used to evaluate the combined influence of all predictors.
-- To assess the overall model fit, the individual contributions of predictors and to identify the most influential predictors to refine the model for optimal performance, both the coefficient of determination (R²) and the coefficient of partial determination (CPD) are calculated.
+- The **coefficient of determination (R²)**, the **coefficient of partial determination (CPD)** and the **P-value** are calculated to understand insight.
 - All results are reported with a minimum precision of four decimal places, using an alpha level of .05 for statistical tests.
 
 ## Key Findings
@@ -43,7 +44,7 @@ We should prioritize strategies targeting customers with a strong ‘subcription
 ## Model Performance
 - **Simple Linear Regression** (SLR) was used to analyze each predictor’s individual impact.
 - **Multiple Regression** (MR) was used to evaluate the combined effect of all predictors.
-- **R² Values** & **P-value** indicate the statistical significance and the strength of each predictor’s relationship with streaming hours.
+- **R² Values**, **CPD value**, **P-value** indicate the statistical significance and the strength of each predictor’s relationship with streaming hours individually and collectively.
 
 ## Instructions
 **Dependencies**:
