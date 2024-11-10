@@ -25,7 +25,7 @@ The analysis aims to predict streaming hours based on each variable independentl
 - All results are reported with a minimum precision of four decimal places, using an alpha level of .05 for statistical tests.
 
 ## Key Findings
-
+![Table of key findings](Table.png) 
 - **Children**: Has a positive impact on streaming hours, suggesting family-friendly marketing initiatives could increase engagement.
 - **Income**: Minimal influence, indicating limited segmentation value based on income.
 - **History**: Strong positive relationship, implying long-term subscribers are more engaged.
