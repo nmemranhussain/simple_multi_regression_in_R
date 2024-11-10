@@ -12,11 +12,11 @@ FlixIt Inc. aims to understand the factors influencing streaming behavior among 
 
 ## Objective
 The analysis aims to predict streaming hours based on each variable independently and collectively (all results should be accurate to four decimal places):
-1. Predict streaming hours based on **Income** only
-2. Predict streaming hours based on **Number of Children** only
-3. Predict streaming hours based on **Subscription History** only
-4. Combined model to predict streaming hours using **Income**, **Number of Children** and **Subscription History** altogether
-5. We want to assess the overall model fit, the unconditional and the conditional relationship between the independent predictors and the criterion variables and to identify the most influential predictors to refine the model for optimal performance.
+- Predict streaming hours based on **Income** only
+- Predict streaming hours based on **Number of Children** only
+- Predict streaming hours based on **Subscription History** only
+- Combined model to predict streaming hours using **Income**, **Number of Children** and **Subscription History** altogether
+- We want to assess the overall model fit, the unconditional and the conditional relationship between the independent predictors and the criterion variables and to identify the most influential predictors to refine the model for optimal performance.
 
 ## Methodology
 - Simple Linear Regression models are developed for each individual predictor.
@@ -25,6 +25,7 @@ The analysis aims to predict streaming hours based on each variable independentl
 - All results are reported with a minimum precision of four decimal places, using an alpha level of .05 for statistical tests.
 
 ## Key Findings
+
 - **Children**: Has a positive impact on streaming hours, suggesting family-friendly marketing initiatives could increase engagement.
 - **Income**: Minimal influence, indicating limited segmentation value based on income.
 - **History**: Strong positive relationship, implying long-term subscribers are more engaged.
