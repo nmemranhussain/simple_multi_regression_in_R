@@ -60,10 +60,11 @@ The following columns were used as inputs (features) in the final model:
 
 ### Type of Models
 * **Simple Regression Classifier**
-* **Random Forest Classifier**
+* **Multiple Regression Classifier**
 
 ### Software Used to Implement the Model
 - **Software:** R (with libraries such as **deplyr**, **heplots**)
+- **Version:** 4.3.2
 
 ### Version of the Modeling Software: 
 - **'deplyr'**: '1.1.4'
