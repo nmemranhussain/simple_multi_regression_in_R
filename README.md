@@ -16,6 +16,7 @@ The analysis aims to predict streaming hours based on each variable independentl
 - Predict streaming hours based on **Subscription History** only
 - Combined model to predict streaming hours using **Income**, **Number of Children** and **Subscription History** altogether
 - We want to assess the overall model fit, the unconditional and the conditional relationship between the independent predictors and the criterion variables and to identify the most influential predictors to refine the model for optimal performance.
+- All results are reported with a minimum precision of four decimal places, using an alpha level of 0.05 for statistical tests. (95% confidence level)
 
 **Intended Users:**
 - Data Analysts, Data scientists, machine learning enthusiasts, educators.
@@ -45,9 +46,9 @@ This model was built using packages that promote responsible AI practices, such 
 - **FlixIt.dat**  
 
 ### Evaluation Metrics  
-- **coefficient of determination (R²)**
-- **coefficient of partial determination (CPD)**
-- **P-value** 
+- **coefficient of determination (R²)** - Indicates the strength of relationships
+- **coefficient of partial determination (CPD)** - Indicates what portion of each independent variables can explain the 'Streaming Hours'
+- **P-value** - Indicates statistical significance using 95% confidence level
 
 ### Columns Used as Inputs in the Final Model
 The following columns were used as inputs (features) in the final model:
@@ -66,16 +67,10 @@ The following columns were used as inputs (features) in the final model:
 - **Software:** R (with libraries such as **deplyr**, **heplots**)
 
 ### Version of the Modeling Software: 
-- **'deplyr'**: '1.1.4',
-- **'heplots'**: '1.7.0',
+- **'deplyr'**: '1.1.4'
+- **'heplots'**: '1.7.0'
 
-## Methodology
-- Simple Linear Regression models are developed for each individual predictor.
-- Multiple Regression is used to evaluate the combined influence of all predictors.
-- The are calculated to understand insight.
-- All results are reported with a minimum precision of four decimal places, using an alpha level of .05 for statistical tests.
-
-## Key Findings
+## Quantitative Analysis
 ![Table of key findings](Table.png) 
 - **Children**: Has a positive impact on streaming hours, suggesting family-friendly marketing initiatives could increase engagement.
 - **Income**: Minimal influence, indicating limited segmentation value based on income.
@@ -92,11 +87,6 @@ The following columns were used as inputs (features) in the final model:
 
 ## Recommandation
 We should prioritize strategies targeting customers with a strong ‘subcription history’ with the company, as this variable has the most significant positive impact on the outcome. Additionally, customers with children also show a positive association, suggesting potential for family-oriented marketing efforts. Income, however, appears to have minimal influence on the outcome, especially in the multiple regression model, and can be deprioritized in customer segmentation efforts. While the model explains about 31.66% of the variance in the outcome, there remains a substantial portion unexplained, indicating that we could benefit from exploring additional variables to enhance the model's explanatory power and better capture other influential factors. 
-
-## Model Performance
-- **Simple Linear Regression** (SLR) was used to analyze each predictor’s individual impact.
-- **Multiple Regression** (MR) was used to evaluate the combined effect of all predictors.
-- **P-value**, **CPD value** and **R² Values** indicate the statistical significance and the strength of each predictor’s relationship with **streaming hours** individually and collectively.
 
 ## Instructions
 **Dependencies**:
