@@ -16,8 +16,10 @@ The analysis aims to predict streaming hours based on each variable independentl
 - Predict streaming hours based on **Subscription History** only
 - Combined model to predict streaming hours using **Income**, **Number of Children** and **Subscription History** altogether
 - We want to assess the overall model fit, the unconditional and the conditional relationship between the independent predictors and the criterion variables and to identify the most influential predictors to refine the model for optimal performance.  
-**Intended Users:** Data Analysts, Data scientists, machine learning enthusiasts, educators.  
-**Out-of-scope Uses:** The model is not intended for production use in any critical applications or real-time decision-making systems.
+**Intended Users:**
+- Data Analysts, Data scientists, machine learning enthusiasts, educators.  
+**Out-of-scope Uses:**
+- The model is not intended for production use in any critical applications or real-time decision-making systems.
 
 ## Responsible AI
 This model was built using packages that promote responsible AI practices, such as:
