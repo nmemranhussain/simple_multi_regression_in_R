@@ -9,7 +9,7 @@ FlixIt Inc. aims to understand the factors influencing streaming behavior among 
 **License:** [MIT License](LICENSE)
 
 ## Intended Use
-**Purpose:**
+**Purpose:**  
 The analysis aims to predict streaming hours based on each variable independently and collectively (all results should be accurate to four decimal places):
 - Predict streaming hours based on **Income** only
 - Predict streaming hours based on **Number of Children** only
