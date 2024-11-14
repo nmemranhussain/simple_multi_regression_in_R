@@ -14,7 +14,7 @@ FlixIt Inc. aims to understand the factors influencing streaming behavior among 
 - Predict streaming hours based on **Number of Children** only
 - Predict streaming hours based on **Subscription History** only
 - Combined model to predict streaming hours using **Income**, **Number of Children** and **Subscription History** altogether
-- We want to assess the overall model fit, the unconditional and the conditional relationship between the independent predictors and the criterion variables and to identify the most influential predictors to refine the model for optimal performance.
+- We want to assess the overall model fit, the **unconditional** and the **conditional** relationship between the **independent predictors** and the **dependable variables** and to identify the most influential predictors to refine the model for optimal performance.
 - All results are reported with a minimum precision of four decimal places, using an alpha level of 0.05 for statistical tests. (95% confidence level)
 
 **Intended Users:**
