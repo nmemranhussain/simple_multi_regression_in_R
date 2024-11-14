@@ -9,7 +9,13 @@ FlixIt Inc. aims to understand the factors influencing streaming behavior among 
 **License:** [MIT License](LICENSE)
 
 ## Intended Use
-**Purpose:** The model predicts survival on the Titanic dataset using various machine learning algorithms.  
+**Purpose:**
+The analysis aims to predict streaming hours based on each variable independently and collectively (all results should be accurate to four decimal places):
+- Predict streaming hours based on **Income** only
+- Predict streaming hours based on **Number of Children** only
+- Predict streaming hours based on **Subscription History** only
+- Combined model to predict streaming hours using **Income**, **Number of Children** and **Subscription History** altogether
+- We want to assess the overall model fit, the unconditional and the conditional relationship between the independent predictors and the criterion variables and to identify the most influential predictors to refine the model for optimal performance.  
 **Intended Users:** Data Analysts, Data scientists, machine learning enthusiasts, educators.  
 **Out-of-scope Uses:** The model is not intended for production use in any critical applications or real-time decision-making systems.
 
@@ -27,13 +33,35 @@ This model was built using packages that promote responsible AI practices, such 
   - `History`: Number of years subscribed to FlixIt
 - **Data Format**: Raw data without headers, with each row representing a subscriber.
 
-## Objective
-The analysis aims to predict streaming hours based on each variable independently and collectively (all results should be accurate to four decimal places):
-- Predict streaming hours based on **Income** only
-- Predict streaming hours based on **Number of Children** only
-- Predict streaming hours based on **Subscription History** only
-- Combined model to predict streaming hours using **Income**, **Number of Children** and **Subscription History** altogether
-- We want to assess the overall model fit, the unconditional and the conditional relationship between the independent predictors and the criterion variables and to identify the most influential predictors to refine the model for optimal performance.
+## Model Details
+### Architecture  
+- This model card utilizes linear model such as **'Multiple Regression'**. To understand inght, an alternative model **'Simple Linear Regression'** model is also used.  
+
+### Training Data  
+- **FlixIt.dat**  
+
+### Evaluation Metrics  
+- Area Under the Curve (AUC).
+
+### Columns Used as Inputs in the Final Model
+The following columns were used as inputs (features) in the final model:
+- **Children**: Number of children in the household
+- **Income**: Annual income in thousands
+- **History**: Number of years subscribed to FlixIt
+
+### Column(s) Used as Target(s) in the Final Model
+- **Target Column:** **Hours**: Total streaming hours in the past 30 days
+
+### Type of Models
+* **Simple Regression Classifier**
+* **Random Forest Classifier**
+
+### Software Used to Implement the Model
+- **Software:** R (with libraries such as **deplyr**, **heplots**)
+
+### Version of the Modeling Software: 
+- **'deplyr'**: '1.1.4',
+- **'heplots'**: '1.7.0',
 
 ## Methodology
 - Simple Linear Regression models are developed for each individual predictor.
