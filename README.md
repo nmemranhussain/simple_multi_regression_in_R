@@ -45,7 +45,9 @@ This model was built using packages that promote responsible AI practices, such 
 - **FlixIt.dat**  
 
 ### Evaluation Metrics  
-- Area Under the Curve (AUC).
+- **coefficient of determination (R²)**
+- **coefficient of partial determination (CPD)**
+- **P-value** 
 
 ### Columns Used as Inputs in the Final Model
 The following columns were used as inputs (features) in the final model:
@@ -70,7 +72,7 @@ The following columns were used as inputs (features) in the final model:
 ## Methodology
 - Simple Linear Regression models are developed for each individual predictor.
 - Multiple Regression is used to evaluate the combined influence of all predictors.
-- The **coefficient of determination (R²)**, the **coefficient of partial determination (CPD)** and the **P-value** are calculated to understand insight.
+- The are calculated to understand insight.
 - All results are reported with a minimum precision of four decimal places, using an alpha level of .05 for statistical tests.
 
 ## Key Findings
