@@ -1,6 +1,23 @@
 # FlixIt Streaming Analysis
 FlixIt Inc. aims to understand the factors influencing streaming behavior among its subscribers to improve customer retention and enhance engagement with premium services. This analysis predicts **streaming hours** based on three key predictors: annual **Income**, number of **Children** under 18 in the household, and subscription **History** (years as a FlixIt subscriber). The primary objective is to determine the individual and combined effects of these factors on streaming behavior, guiding strategic decisions for customer segmentation and retention.
 
+## Basic Information
+**Names:** N M Emran Hussain  
+**Email:** nmemranhussain2023@gmail.com  
+**Date:** October 2024  
+**Model Version:** 1.0.0  
+**License:** [MIT License](LICENSE)
+
+## Intended Use
+**Purpose:** The model predicts survival on the Titanic dataset using various machine learning algorithms.  
+**Intended Users:** Data Analysts, Data scientists, machine learning enthusiasts, educators.  
+**Out-of-scope Uses:** The model is not intended for production use in any critical applications or real-time decision-making systems.
+
+## Responsible AI
+This model was built using packages that promote responsible AI practices, such as:
+* **[PiML]()** for interpretable machine learning.
+* **[InterpretML](https://github.com/interpretml/interpret)** for explaining and visualizing model predictions.
+
 ## Data Description
 - **Dataset File**: `FlixIt.dat`
 - **Variables**:
