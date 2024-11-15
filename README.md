@@ -77,6 +77,7 @@ The following columns were used as inputs (features) in the final model:
 - **P-value** - Indicates statistical significance using 95% confidence level
 
 **Simple and Multiple Linear Regression Analysis** table of **Children**, **Income** and **History** on **Streaming Hours**
+
   ![Table of key findings](Table.png) 
 - **Children**: Has a positive impact on streaming hours, suggesting family-friendly marketing initiatives could increase engagement.
 - **Income**: Minimal influence, indicating limited segmentation value based on income.
