@@ -23,11 +23,6 @@ FlixIt Inc. aims to understand the factors influencing streaming behavior among 
 **Out-of-scope Uses:**
 - The model is not intended for production use in any critical applications or real-time decision-making systems.
 
-## Responsible AI
-This model was built using packages that promote responsible AI practices, such as:
-* **[PiML]()** for interpretable machine learning.
-* **[InterpretML](https://github.com/interpretml/interpret)** for explaining and visualizing model predictions.
-
 ## Data Description
 - **Dataset File**: `FlixIt.dat`
 - **Variables**:
@@ -90,11 +85,10 @@ The following columns were used as inputs (features) in the final model:
 ## Recommandation
 We should prioritize strategies targeting customers with a strong ‘subcription history’ with the company, as this variable has the most significant positive impact on the outcome. Additionally, customers with children also show a positive association, suggesting potential for family-oriented marketing efforts. Income, however, appears to have minimal influence on the outcome, especially in the multiple regression model, and can be deprioritized in customer segmentation efforts. While the model explains about 31.66% of the variance in the outcome, there remains a substantial portion unexplained, indicating that we could benefit from exploring additional variables to enhance the model's explanatory power and better capture other influential factors. 
 
-## Instructions
-**Dependencies**:
-   ```R
-   install.packages("dplyr")
-   install.packages("heplots")
+## Potential Impacts, Risks, and Uncertainties
+Simple regression models offer an accessible and interpretable way to analyze the relationship between a dependent variable and a single independent variable. This simplicity ensures clarity in the outcomes, making it easier for stakeholders to understand and utilize the findings for decision-making. However, the reliance on one predictor can oversimplify complex systems, potentially overlooking critical influencing factors and interactions. This limitation introduces a risk of biased conclusions, particularly when the omitted variables significantly affect the dependent variable. Ensuring robust data preprocessing and validation techniques helps mitigate these risks but does not eliminate the inherent uncertainties of using a singular dimension in predictive modeling.
+
+On the other hand, multiple regression models extend the analytical power by incorporating multiple independent variables to explain or predict a dependent variable. This approach better captures complex relationships and interactions, enhancing prediction accuracy and decision-making insights. However, these models carry risks such as multicollinearity, overfitting, and sensitivity to outliers, which can undermine the reliability of the results. Addressing these risks requires careful feature selection, regularization techniques, and thorough model validation. Moreover, uncertainties arise from potential data biases and limitations in capturing the true relationships between variables. While the model's complexity offers better explanatory power, its interpretability can be challenging without tools to make predictions transparent and accountable.
 
 
 
