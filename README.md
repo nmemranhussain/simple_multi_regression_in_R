@@ -51,7 +51,7 @@ The following columns were used as inputs (features) in the final model:
 - **History**: Number of years subscribed to FlixIt
 
 ### Column(s) Used as Target(s) in the Final Model
-- **Target Column:** **Hours**: Total streaming hours in the past 30 days
+- **Target Column:** **Hours** (Total streaming hours in the past 30 days)
 
 ### Type of Models
 * **Simple Regression Classifier**
