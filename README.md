@@ -75,8 +75,9 @@ The following columns were used as inputs (features) in the final model:
 - **coefficient of determination (R²)** - Indicates the strength of relationships
 - **coefficient of partial determination (CPD)** - Indicates what portion of each independent variables can explain the 'Streaming Hours'
 - **P-value** - Indicates statistical significance using 95% confidence level
-  
-![Table of key findings](Table.png) 
+
+**Simple and Multiple Linear Regression Analysis** table of ** Children**, **Income** and **History** on **Streaming Hours**
+  ![Table of key findings](Table.png) 
 - **Children**: Has a positive impact on streaming hours, suggesting family-friendly marketing initiatives could increase engagement.
 - **Income**: Minimal influence, indicating limited segmentation value based on income.
 - **History**: Strong positive relationship, implying long-term subscribers are more engaged.
