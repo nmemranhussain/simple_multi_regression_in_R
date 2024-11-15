@@ -66,9 +66,9 @@ The following columns were used as inputs (features) in the final model:
 - **Software:** R (with libraries such as **deplyr**, **heplots**)
 
 ### Version of the Modeling Software: 
-- **'R':** 4.3.2
-- **'deplyr':** 1.1.4
-- **'heplots':**: 1.7.0
+- **R:** 4.3.2
+- **deplyr:** 1.1.4
+- **heplots:**: 1.7.0
 
 ## Quantitative Analysis
 ![Table of key findings](Table.png) 
