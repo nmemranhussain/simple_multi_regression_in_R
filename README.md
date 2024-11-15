@@ -71,11 +71,6 @@ The following columns were used as inputs (features) in the final model:
 - **heplots:**: 1.7.0
 
 ## Quantitative Analysis
-### Evaluation Metrics  
-- **coefficient of determination (R²)** - Indicates the strength of relationships
-- **coefficient of partial determination (CPD)** - Indicates what portion of each independent variables can explain the 'Streaming Hours'
-- **P-value** - Indicates statistical significance using 95% confidence level
-
 **Simple (SLR) and Multiple (MR) Linear Regression Analysis** table of **Children**, **Income** and **History** on **Streaming Hours**
 
   ![Table of key findings](Table.png) 
