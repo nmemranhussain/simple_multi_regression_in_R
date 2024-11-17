@@ -23,7 +23,7 @@ FlixIt Inc. aims to understand the factors influencing streaming behavior among 
 **Out-of-scope Uses:**
 - The model is not intended for production use in any critical applications or real-time decision-making systems.
 
-## Training data
+## Training Data 
 - **Dataset File**: `FlixIt.dat`
 - **Variables**:
   - `Hours`: Total streaming hours in the past 30 days
