@@ -63,7 +63,8 @@ The following columns were used as inputs (features) in the final model:
 - **heplots:**: 1.7.0
 
 ## Quantitative Analysis
-### **Simple (SLR) and Multiple (MR) Linear Regression Analysis** table of **Children**, **Income** and **History** on **Streaming Hours**
+
+### Simple (SLR) and Multiple (MR) Regression Analysis table of **Children**, **Income** and **History** on **Streaming Hours**
 
   ![Table of key findings](Table.png) 
 - **Children**: Has a positive impact on streaming hours, suggesting family-friendly marketing initiatives could increase engagement.
