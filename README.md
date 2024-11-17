@@ -34,10 +34,7 @@ FlixIt Inc. aims to understand the factors influencing streaming behavior among 
 
 ## Model Details
 ### Architecture  
-- This model card utilizes linear model such as **'Multiple Regression'**. To understand inght, an alternative model **'Simple Linear Regression'** model is also used.  
-
-### Training Data  
-- **FlixIt.dat**  
+- This model card utilizes linear model such as **'Multiple Regression'**. To understand inght, an alternative model **'Simple Linear Regression'** model is also used.   
 
 ### Evaluation Metrics  
 - **coefficient of determination (R²)** - Indicates the strength of relationships
