@@ -5,7 +5,6 @@ FlixIt Inc. aims to understand the factors influencing streaming behavior among 
 **Names:** N M Emran Hussain  
 **Email:** nmemranhussain2023@gmail.com  
 **Date:** October 2024  
-**Model Version:** 1.0.0  
 **License:** [MIT License](LICENSE)
 
 ## Intended Use
@@ -43,11 +42,14 @@ FlixIt Inc. aims to understand the factors influencing streaming behavior among 
 - This model card utilizes linear model such as **'Multiple Regression'**. To understand inght, an alternative model **'Simple Linear Regression'** model is also used.   
 
 ### Evaluation Metrics  
-- **coefficient of determination (R²)** - Indicates the strength of relationships in **'sample'**. It is also denoted by CD.
-- **Adjusted CD** - Indicates the strength of relationships in **'population'**
-- **coefficient of partial determination (CPD)** - Indicates what portion of each independent variables can explain the 'Streaming Hours'
-- **P-value** - Indicates statistical significance using 95% confidence level
-- **b-value** - represents the magnitude and direction of the relationship between an independent variable and the dependent variable in a regression model.
+- **Coefficient of multiple determination (R²)** - Indicates the strength of relationships in **'sample'**. It is also denoted by CD.
+- **Adjusted R²** - Indicates the strength of relationships in **'population'**. It is also denoted by Adjusted CD.
+- **Coefficient of partial determination (CPD)** - Indicates what portion of each independent variables can explain the 'Streaming Hours'.
+- **Unconditional P-value** - Indicates statistical significance in bivariate level (simple regression) using 95% confidence level.
+- **Conditional P-value** - Indicates statistical significance in multivariate level (multiple regression) using 95% confidence level.
+- **b-value in SLR** - represents the magnitude and direction of **'slope'** of independent variable in a simple regression model.
+- **b-value in MLR** - represents the magnitude and direction of **'slope'** of independent variables in a multiple regression model.
+- **Global F P-value** - indicates at least one of the predictor variables is statistical-significantly related with dependent variable in 95% confidence level.
 
 ### Columns Used as Inputs in the Final Model
 The following columns were used as inputs (features) in the final model:
