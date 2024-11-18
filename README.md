@@ -25,12 +25,18 @@ FlixIt Inc. aims to understand the factors influencing streaming behavior among 
 
 ## Training Data 
 - **Dataset File**: `FlixIt.dat`
-- **Variables**:
-  - `Hours`: Total streaming hours in the past 30 days
-  - `Children`: Number of children in the household
-  - `Income`: Annual income in thousands
-  - `History`: Number of years subscribed to FlixIt
-- **Data Format**: Raw data without headers, with each row representing a subscriber.
+- **Number of Rows**:  rows
+- **File Format**: `.dat` (space-separated values).
+
+### Data Dictionary
+
+| Variable Name | Model Role       | Measurement Level | Description                                                                |
+|---------------|------------------|-------------------|----------------------------------------------------------------------------|
+| ID            | Identifier       | Nominal           | Unique identifier for each record in the dataset.                          |
+| Age           | Predictor        | Interval          | Age of the individual, recorded in years.                                  |
+| Gender        | Predictor        | Nominal           | Gender of the individual: 0 (Male), 1 (Female), 2 (Non-binary), 3 (Other). |
+| Duration      | Predictor/Target | Ratio             | Duration of the activity, measured in minutes.                             |
+| Rating        | Target           | Ordinal           | Rating score given by the individual, typically on a 1-10 scale.           |
 
 ## Model Details
 ### Architecture  
