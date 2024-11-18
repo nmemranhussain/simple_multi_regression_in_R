@@ -25,7 +25,7 @@ FlixIt Inc. aims to understand the factors influencing streaming behavior among 
 
 ## Training Data 
 - **Dataset File**: `FlixIt.dat`
-- **Number of Rows**:  rows
+- **Number of Rows**: 225 rows
 - **File Format**: `.dat` (space-separated values).
 
 ### Data Dictionary
