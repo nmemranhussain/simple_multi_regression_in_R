@@ -43,9 +43,11 @@ FlixIt Inc. aims to understand the factors influencing streaming behavior among 
 - This model card utilizes linear model such as **'Multiple Regression'**. To understand inght, an alternative model **'Simple Linear Regression'** model is also used.   
 
 ### Evaluation Metrics  
-- **coefficient of determination (R²)** - Indicates the strength of relationships
+- **coefficient of determination (R²)** - Indicates the strength of relationships in **'sample'**. It is also denoted by CD.
+- **Adjusted CD** - Indicates the strength of relationships in **'population'**
 - **coefficient of partial determination (CPD)** - Indicates what portion of each independent variables can explain the 'Streaming Hours'
 - **P-value** - Indicates statistical significance using 95% confidence level
+- **b-value** - represents the magnitude and direction of the relationship between an independent variable and the dependent variable in a regression model.
 
 ### Columns Used as Inputs in the Final Model
 The following columns were used as inputs (features) in the final model:
