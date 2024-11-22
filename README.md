@@ -32,7 +32,7 @@ FlixIt Inc. aims to understand the factors influencing streaming behavior among 
 | Variable Name | Model Role       | Measurement Level | Description                                                                |
 |---------------|------------------|-------------------|----------------------------------------------------------------------------|
 | ID            | Identifier       | Nominal           | Unique identifier for each record in the dataset.                          |
-| Age           | Predictor        | Interval          | Age of the individual, recorded in years.                                  |
+| Income        | Predictor        | Interval          | Age of the individual, recorded in years.                                  |
 | Children      | Predictor        | Nominal           | Gender of the individual: 0 (Male), 1 (Female), 2 (Non-binary), 3 (Other). |
 | Hour          | Target           | Ratio             | Duration of the activity, measured in minutes.                             |
 | History       | Predictor        | Ordinal           | Rating score given by the individual, typically on a 1-10 scale.           |
