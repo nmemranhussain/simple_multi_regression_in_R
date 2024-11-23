@@ -34,8 +34,8 @@ FlixIt Inc. aims to understand the factors influencing streaming behavior among 
 | Customer ID           | Identifier     | Nominal               | Unique identifier for each customer.                                        |
 | Streaming_hours       | Dependent      | Ratio                 | Number of hours spent streaming content (target variable).                  |
 | Number_of_children    | Independent    | Ratio                 | Number of children in the household.                                        |
-| Income                | Independent    | Ratio                 | Monthly income of the customer (in thousands).                              |
-| History               | Independent    | Ratio                 | Customer's historical engagement level in years.                            |
+| Income                | Independent    | Ratio                 | Annual income of the customer (in thousands).                               |
+| History               | Independent    | Ratio                 | Customer's historical engagement level with FlixIt in years.                |
 
 ## Model Details
 ### Architecture  
