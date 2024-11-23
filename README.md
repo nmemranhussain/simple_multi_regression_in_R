@@ -29,13 +29,13 @@ FlixIt Inc. aims to understand the factors influencing streaming behavior among 
 
 ### Data Dictionary
 
-| Variable Name | Model Role       | Measurement Level | Description                                                                |
-|---------------|------------------|-------------------|----------------------------------------------------------------------------|
-| ID            | Identifier       | Nominal           | Unique identifier for each record in the dataset.                          |
-| Income        | Predictor        | Interval          | Age of the individual, recorded in years.                                  |
-| Children      | Predictor        | Nominal           | Gender of the individual: 0 (Male), 1 (Female), 2 (Non-binary), 3 (Other). |
-| Hour          | Target           | Ratio             | Duration of the activity, measured in minutes.                             |
-| History       | Predictor        | Ordinal           | Rating score given by the individual, typically on a 1-10 scale.           |
+| **Variable Name**     | **Model Role** | **Measurement Level** | **Description**                                                             |
+|-----------------------|----------------|-----------------------|-----------------------------------------------------------------------------|
+| Customer ID           | Identifier     | Nominal               | Unique identifier for each customer.                                        |
+| Streaming_hours       | Dependent      | Ratio                 | Number of hours spent streaming content (target variable).                  |
+| Number_of_children    | Independent    | Ratio                 | Number of children in the household.                                        |
+| Income                | Independent    | Ratio                 | Monthly income of the customer (in thousands).                              |
+| History               | Independent    | Ordinal               | Customer's historical engagement level (e.g., ratings from 1 to 5).         |
 
 ## Model Details
 ### Architecture  
